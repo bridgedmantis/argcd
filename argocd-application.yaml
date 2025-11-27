@@ -12,7 +12,7 @@ spec:
   # Source repository configuration
   source:
     repoURL: https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git  # لطفا آدرس repository خود را وارد کنید
-    targetRevision: main  # یا master، بسته به branch اصلی شما
+    targetRevision: master  # branch اصلی شما
     path: .  # مسیر فایل‌های Kubernetes در repository
     
   # Destination cluster
