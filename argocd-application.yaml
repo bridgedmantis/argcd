@@ -19,7 +19,7 @@ spec:
   # Destination cluster
   destination:
     server: https://kubernetes.default.svc
-    namespace: default  # یا namespace مورد نظر شما
+    namespace: production  # یا namespace مورد نظر شما
     
   # Sync policy
   syncPolicy:
