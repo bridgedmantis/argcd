@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: demo-service
+spec:
+  type: ClusterIP
+  selector:
+    app: demo   # هر دو نسخه را شامل می‌شود
+  ports:
+    - port: 80
+      targetPort: 80
